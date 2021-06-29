@@ -60,12 +60,12 @@ This projects makes use of the following 2 libraries:
 5. Execute the '_run.bat'.
 
 <h2>Notes</h2>
-Make sure to contact me on discord for any questions relating this project: Ingmar#0001
+Make sure to contact me on discord for any questions relating this project: Ingmar#0001.
 
 <h2>License</h2>
 
-Copyright © Ingmar Fontijne (ingmar.fontijne@student.hu.nl), 2021
+Copyright © Ingmar Fontijne [ingmar.fontijne@student.hu.nl], 2021.
 
-Distributed under the Boost Software License, Version 1.0. (See accompanying file LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+Distributed under the Boost Software License, Version 1.0. (See accompanying file LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt).
 
 Note: See license file for a detailed description.
