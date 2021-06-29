@@ -1,0 +1,91 @@
+\hypertarget{classscanner}{}\doxysection{scanner Class Reference}
+\label{classscanner}\index{scanner@{scanner}}
+
+
+Application class for the actual scanner.  
+
+
+
+
+{\ttfamily \#include $<$scanner.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classscanner_a2ba0f9c390a331d2e7c856bc3104cd3a}\label{classscanner_a2ba0f9c390a331d2e7c856bc3104cd3a}} 
+{\bfseries scanner} (\mbox{\hyperlink{classmlx90615}{mlx90615}} \&MLX, hwlib\+::terminal\+\_\+from \&display, hwlib\+::target\+::pin\+\_\+in \&trigger, hwlib\+::target\+::pin\+\_\+out \&led, const unsigned int time\+Before\+Alert=5)
+\item 
+void \mbox{\hyperlink{classscanner_a6735e148863817c60932fc0f23e13f61}{change\+Scale}} (temperature\+Scale new\+Scale)
+\begin{DoxyCompactList}\small\item\em Function to change the scale. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classscanner_a6fb17228bd0bf771cb0dbb2f440830e7}{read\+Continuous}} ()
+\begin{DoxyCompactList}\small\item\em Function to continuously read the temperature. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classscanner_ac6d293ac9daa7b03454e8b08ada2b272}{read\+Specific}} ()
+\begin{DoxyCompactList}\small\item\em Function to read the temperature for a specific time. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classscanner_af0ddf854d8afd0323cb511b2f80a6f4d}{show\+Stand\+By\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Function to show stand-\/by screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classscanner_abd6fac521f0a28547388d30eb678f601}{show\+Temperature\+Screen}} (const char \&temperature\+Unit, const int \&number, const int \&fraction, const char $\ast$level, const bool \&confirmed=false)
+\begin{DoxyCompactList}\small\item\em Function to show the actual temperature data on screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Application class for the actual scanner. 
+
+This class gives functionality to a \mbox{\hyperlink{classmlx90615}{mlx90615}} by combining it\textquotesingle{}s use with a oled display and a trigger. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classscanner_a6735e148863817c60932fc0f23e13f61}\label{classscanner_a6735e148863817c60932fc0f23e13f61}} 
+\index{scanner@{scanner}!changeScale@{changeScale}}
+\index{changeScale@{changeScale}!scanner@{scanner}}
+\doxysubsubsection{\texorpdfstring{changeScale()}{changeScale()}}
+{\footnotesize\ttfamily void scanner\+::change\+Scale (\begin{DoxyParamCaption}\item[{temperature\+Scale}]{new\+Scale }\end{DoxyParamCaption})}
+
+
+
+Function to change the scale. 
+
+This function changes the current scale that is shown on screen to fahrenheit, celsius or kelvin. \mbox{\Hypertarget{classscanner_a6fb17228bd0bf771cb0dbb2f440830e7}\label{classscanner_a6fb17228bd0bf771cb0dbb2f440830e7}} 
+\index{scanner@{scanner}!readContinuous@{readContinuous}}
+\index{readContinuous@{readContinuous}!scanner@{scanner}}
+\doxysubsubsection{\texorpdfstring{readContinuous()}{readContinuous()}}
+{\footnotesize\ttfamily void scanner\+::read\+Continuous (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to continuously read the temperature. 
+
+This function will continuously scan and show the measured temperature with a toggle based system. \mbox{\Hypertarget{classscanner_ac6d293ac9daa7b03454e8b08ada2b272}\label{classscanner_ac6d293ac9daa7b03454e8b08ada2b272}} 
+\index{scanner@{scanner}!readSpecific@{readSpecific}}
+\index{readSpecific@{readSpecific}!scanner@{scanner}}
+\doxysubsubsection{\texorpdfstring{readSpecific()}{readSpecific()}}
+{\footnotesize\ttfamily void scanner\+::read\+Specific (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to read the temperature for a specific time. 
+
+This function reads the temperature whilst the trigger is down for an x amount of time. After the elapsed time it will keep showing the last recorded temperature on screen. \mbox{\Hypertarget{classscanner_af0ddf854d8afd0323cb511b2f80a6f4d}\label{classscanner_af0ddf854d8afd0323cb511b2f80a6f4d}} 
+\index{scanner@{scanner}!showStandByScreen@{showStandByScreen}}
+\index{showStandByScreen@{showStandByScreen}!scanner@{scanner}}
+\doxysubsubsection{\texorpdfstring{showStandByScreen()}{showStandByScreen()}}
+{\footnotesize\ttfamily void scanner\+::show\+Stand\+By\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to show stand-\/by screen. 
+
+This function shows a stand-\/by screen on screen. \mbox{\Hypertarget{classscanner_abd6fac521f0a28547388d30eb678f601}\label{classscanner_abd6fac521f0a28547388d30eb678f601}} 
+\index{scanner@{scanner}!showTemperatureScreen@{showTemperatureScreen}}
+\index{showTemperatureScreen@{showTemperatureScreen}!scanner@{scanner}}
+\doxysubsubsection{\texorpdfstring{showTemperatureScreen()}{showTemperatureScreen()}}
+{\footnotesize\ttfamily void scanner\+::show\+Temperature\+Screen (\begin{DoxyParamCaption}\item[{const char \&}]{temperature\+Unit,  }\item[{const int \&}]{number,  }\item[{const int \&}]{fraction,  }\item[{const char $\ast$}]{level,  }\item[{const bool \&}]{confirmed = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Function to show the actual temperature data on screen. 
+
+This function is used by scan functions above to show temperature data on screen. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{scanner_8h}{scanner.\+h}}\item 
+\mbox{\hyperlink{scanner_8cpp}{scanner.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,103 @@
+\hypertarget{classtemperature}{}\doxysection{temperature Class Reference}
+\label{classtemperature}\index{temperature@{temperature}}
+
+
+Temperature class that manipulates temperature data.  
+
+
+
+
+{\ttfamily \#include $<$temperature.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtemperature_a517bc9f433f9726752c1e0ca9986977d}{temperature}} (double temperature\+Data, double correction=0.\+0)
+\begin{DoxyCompactList}\small\item\em Constructor which translates temperature data. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtemperature_a74508b4dccb5dcfb9e3950439938c4b2}{get\+Temperature}} (temperature\+Scale scale)
+\begin{DoxyCompactList}\small\item\em Function for getting the temperature. \end{DoxyCompactList}\item 
+const char $\ast$ \mbox{\hyperlink{classtemperature_a5b17bc20f5813c41a780583709d54d55}{get\+Temperature\+Level}} ()
+\begin{DoxyCompactList}\small\item\em Function for getting the temperature level. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classtemperature_a8f107d525400dfa0b33f6791d7d6c657}{get\+Temperature\+Number}} (temperature\+Scale scale)
+\begin{DoxyCompactList}\small\item\em Function for getting the temperature number. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classtemperature_a2d96eb8f59096b5f454884f52a684fc3}{get\+Temperature\+Fraction}} (temperature\+Scale scale)
+\begin{DoxyCompactList}\small\item\em Function for getting the temperature fraction. \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{classtemperature_ab1c613483f6bdaf5f16021c13831b3e2}{get\+Temperature\+Unit}} (temperature\+Scale scale)
+\begin{DoxyCompactList}\small\item\em Function for getting the temperature unit. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Temperature class that manipulates temperature data. 
+
+This class is can output temperature data in various ways. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtemperature_a517bc9f433f9726752c1e0ca9986977d}\label{classtemperature_a517bc9f433f9726752c1e0ca9986977d}} 
+\index{temperature@{temperature}!temperature@{temperature}}
+\index{temperature@{temperature}!temperature@{temperature}}
+\doxysubsubsection{\texorpdfstring{temperature()}{temperature()}}
+{\footnotesize\ttfamily temperature\+::temperature (\begin{DoxyParamCaption}\item[{double}]{temperature\+Data,  }\item[{double}]{correction = {\ttfamily 0.0} }\end{DoxyParamCaption})}
+
+
+
+Constructor which translates temperature data. 
+
+This constructor translates temperature data (in kelvin) to numbers, fractions and the complete temperatures in 3 different temperature scales. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtemperature_a74508b4dccb5dcfb9e3950439938c4b2}\label{classtemperature_a74508b4dccb5dcfb9e3950439938c4b2}} 
+\index{temperature@{temperature}!getTemperature@{getTemperature}}
+\index{getTemperature@{getTemperature}!temperature@{temperature}}
+\doxysubsubsection{\texorpdfstring{getTemperature()}{getTemperature()}}
+{\footnotesize\ttfamily double temperature\+::get\+Temperature (\begin{DoxyParamCaption}\item[{temperature\+Scale}]{scale }\end{DoxyParamCaption})}
+
+
+
+Function for getting the temperature. 
+
+This function returns the temperature in a specific temperature scale. \mbox{\Hypertarget{classtemperature_a2d96eb8f59096b5f454884f52a684fc3}\label{classtemperature_a2d96eb8f59096b5f454884f52a684fc3}} 
+\index{temperature@{temperature}!getTemperatureFraction@{getTemperatureFraction}}
+\index{getTemperatureFraction@{getTemperatureFraction}!temperature@{temperature}}
+\doxysubsubsection{\texorpdfstring{getTemperatureFraction()}{getTemperatureFraction()}}
+{\footnotesize\ttfamily int temperature\+::get\+Temperature\+Fraction (\begin{DoxyParamCaption}\item[{temperature\+Scale}]{scale }\end{DoxyParamCaption})}
+
+
+
+Function for getting the temperature fraction. 
+
+This function returns the temperature fraction in a specific temperature scale. \mbox{\Hypertarget{classtemperature_a5b17bc20f5813c41a780583709d54d55}\label{classtemperature_a5b17bc20f5813c41a780583709d54d55}} 
+\index{temperature@{temperature}!getTemperatureLevel@{getTemperatureLevel}}
+\index{getTemperatureLevel@{getTemperatureLevel}!temperature@{temperature}}
+\doxysubsubsection{\texorpdfstring{getTemperatureLevel()}{getTemperatureLevel()}}
+{\footnotesize\ttfamily const char $\ast$ temperature\+::get\+Temperature\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function for getting the temperature level. 
+
+This function returns the temperature level (whether or not it\textquotesingle{}s a normal human body temperature). \mbox{\Hypertarget{classtemperature_a8f107d525400dfa0b33f6791d7d6c657}\label{classtemperature_a8f107d525400dfa0b33f6791d7d6c657}} 
+\index{temperature@{temperature}!getTemperatureNumber@{getTemperatureNumber}}
+\index{getTemperatureNumber@{getTemperatureNumber}!temperature@{temperature}}
+\doxysubsubsection{\texorpdfstring{getTemperatureNumber()}{getTemperatureNumber()}}
+{\footnotesize\ttfamily int temperature\+::get\+Temperature\+Number (\begin{DoxyParamCaption}\item[{temperature\+Scale}]{scale }\end{DoxyParamCaption})}
+
+
+
+Function for getting the temperature number. 
+
+This function returns the temperature number in a specific temperature scale. \mbox{\Hypertarget{classtemperature_ab1c613483f6bdaf5f16021c13831b3e2}\label{classtemperature_ab1c613483f6bdaf5f16021c13831b3e2}} 
+\index{temperature@{temperature}!getTemperatureUnit@{getTemperatureUnit}}
+\index{getTemperatureUnit@{getTemperatureUnit}!temperature@{temperature}}
+\doxysubsubsection{\texorpdfstring{getTemperatureUnit()}{getTemperatureUnit()}}
+{\footnotesize\ttfamily char temperature\+::get\+Temperature\+Unit (\begin{DoxyParamCaption}\item[{temperature\+Scale}]{scale }\end{DoxyParamCaption})}
+
+
+
+Function for getting the temperature unit. 
+
+This function returns the temperature unit char in a specific temperature scale. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+temperature.\+h\item 
+\mbox{\hyperlink{temperature_8cpp}{temperature.\+cpp}}\end{DoxyCompactItemize}

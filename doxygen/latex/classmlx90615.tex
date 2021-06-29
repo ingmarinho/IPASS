@@ -1,0 +1,73 @@
+\hypertarget{classmlx90615}{}\doxysection{mlx90615 Class Reference}
+\label{classmlx90615}\index{mlx90615@{mlx90615}}
+
+
+Class for communicating with the \mbox{\hyperlink{classmlx90615}{mlx90615}}.  
+
+
+
+
+{\ttfamily \#include $<$mlx90615.\+h$>$}
+
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmlx90615_a8593d79c47e107922ea6dd24944a5de9}\label{classmlx90615_a8593d79c47e107922ea6dd24944a5de9}} 
+enum class {\bfseries registers} \+: uint8\+\_\+t \{ \newline
+{\bfseries I2\+CADDR} = 0x5B
+, {\bfseries OBJECT\+\_\+\+TEMPERATURE} = 0x27
+, {\bfseries AMBIENT\+\_\+\+TEMPERATURE} = 0x26
+, {\bfseries RAWIR1} = 0x04
+, \newline
+{\bfseries RAWIR2} = 0x05
+, {\bfseries TA} = 0x06
+, {\bfseries TOBJ1} = 0x07
+, {\bfseries TOBJ2} = 0x08
+, \newline
+{\bfseries TOMAX} = 0x20
+, {\bfseries TOMIN} = 0x21
+, {\bfseries PWMCTRL} = 0x22
+, {\bfseries TARANGE} = 0x23
+, \newline
+{\bfseries EMISS} = 0x24
+, {\bfseries CONFIG} = 0x25
+, {\bfseries ADDR} = 0x0E
+, {\bfseries ID1} = 0x3C
+, \newline
+{\bfseries ID2} = 0x3D
+, {\bfseries ID3} = 0x3E
+, {\bfseries ID4} = 0x3F
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmlx90615_a1e3ec7b5d4e9eb74cff1eaa087268314}\label{classmlx90615_a1e3ec7b5d4e9eb74cff1eaa087268314}} 
+{\bfseries mlx90615} (hwlib\+::i2c\+\_\+bus \&bus, uint8\+\_\+t i2c\+\_\+address, double correction)
+\item 
+\mbox{\hyperlink{classtemperature}{temperature}} \mbox{\hyperlink{classmlx90615_a8bc638b14023212e488db95091b84b46}{get\+Temperature\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Function to get the temperature in kelvin. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for communicating with the \mbox{\hyperlink{classmlx90615}{mlx90615}}. 
+
+This class is responsible for the communication with the \mbox{\hyperlink{classmlx90615}{mlx90615}} and getting temperature data. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classmlx90615_a8bc638b14023212e488db95091b84b46}\label{classmlx90615_a8bc638b14023212e488db95091b84b46}} 
+\index{mlx90615@{mlx90615}!getTemperatureData@{getTemperatureData}}
+\index{getTemperatureData@{getTemperatureData}!mlx90615@{mlx90615}}
+\doxysubsubsection{\texorpdfstring{getTemperatureData()}{getTemperatureData()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtemperature}{temperature}} mlx90615\+::get\+Temperature\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to get the temperature in kelvin. 
+
+This function gets the object temperature from the \mbox{\hyperlink{classmlx90615}{mlx90615}} and returns it as a temperature object. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+mlx90615.\+h\item 
+\mbox{\hyperlink{mlx90615_8cpp}{mlx90615.\+cpp}}\end{DoxyCompactItemize}
