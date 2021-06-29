@@ -15,7 +15,7 @@ This projects makes use of the following 2 libraries:
 
 <h2>Hardware used</h2>
 The main driver behind this project is the <a href="https://store.arduino.cc/arduino-due">Arduino Due</a>.
-
+<br>
 The second most important piece of hardware used is the <a href="https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/sensor-temp-ir-1.html">mlx90615</a>.
 
 The oled used is the <a href="https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/oled-1.html">ssd1306</a>.
