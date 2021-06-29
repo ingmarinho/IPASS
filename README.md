@@ -24,6 +24,7 @@ Other than that I've used a very crappy cheap button and a cheap led.
 
 <h2>Author</h2>
 <table style="width:100%">
+
 | Name            | Student number | Username      |
 | --------------- | -------------- | ------------- |
 | Ingmar Fontijne | 1764875        | ingmarinho    |
