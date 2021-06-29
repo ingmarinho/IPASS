@@ -1,4 +1,4 @@
-<h1>IPASS - mlx90615</h1>
+<h1>IPASS - COVID HUNTER</h1>
 <h2>Introduction</h2>
 This project/repository contains my final project this year called: IPASS.
 <br>
