@@ -48,10 +48,13 @@ This projects makes use of the following 2 libraries:
 
 <h2>Installation</h2>
 1. You'll need hwlib.
+<br>
 2. You'll also need bmptk.
+<br>
 3. Include both in the project.
 <br>
 4. Fill in the Makefile.
+<br>
 5. Execute the '_run.bat'.
 
 <h2>Notes</h2>
