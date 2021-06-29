@@ -33,7 +33,7 @@ Other than that I've used a very crappy cheap button and a cheap led.
 
 <h2>How to install</h2>
 
-<pre style="position: relative;" lang="git"><code>git clone https://github.com/Kennyvandoorn/IPASS-Tic-Tac-Due-SSD1331.git</code></pre>
+<pre style="position: relative;" lang="git"><code>git clone https://github.com/ingmarinho/IPASS.git</code></pre>
 <div class="zeroclipboard-container position-absolute right-0 top-0">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/ingmarinho/IPASS.git
 " tabindex="0" role="button">
