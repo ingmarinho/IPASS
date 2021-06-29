@@ -14,13 +14,13 @@ This projects makes use of the following 2 libraries:
 <a href="https://github.com/wovo/hwlib">hwlib</a>
 
 <h2>Hardware used</h2>
-The main driver behind this project is the <a href="https://store.arduino.cc/arduino-due">Arduino Due</a>.
+-   The main driver behind this project is the <a href="https://store.arduino.cc/arduino-due">Arduino Due</a>.
 <br>
-The second most important piece of hardware used is the <a href="https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/sensor-temp-ir-1.html">mlx90615</a>.
+-   The second most important piece of hardware used is the <a href="https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/sensor-temp-ir-1.html">mlx90615</a>.
 <br>
-The oled used is the <a href="https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/oled-1.html">ssd1306</a>.
+-   The oled used is the <a href="https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/oled-1.html">ssd1306</a>.
 <br>
-Other than that I've used a very crappy cheap button and a cheap led.
+-   Other than that I've used a very crappy cheap button and a cheap led.
 
 <h2>Author</h2>
 <table style="width:100%">
