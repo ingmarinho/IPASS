@@ -10,7 +10,9 @@ The COVID HUNTER has 2 scan modes: continuous scanning (with a toggle) & specifi
 
 <h2>Libraries used</h2>
 This projects makes use of the following 2 libraries:
+<br>
 <a href="https://github.com/wovo/bmptk">bmptk</a>
+<br>
 <a href="https://github.com/wovo/hwlib">hwlib</a>
 
 <h2>Hardware used</h2>
